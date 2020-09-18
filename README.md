@@ -75,13 +75,14 @@ devront être en Français.
 
 ## Travail soumis
 ### Dossier de travail
-Le dossier de travail contient les script : 
+Le dossier de travail contient les scripts : 
 * pre_processing.ipynb : Un premier notebook correspondant au nettoyage des 
 données.
 * auxiliary_functions.py : Un ensemble de fonctions auxiliaires pour la
 de-dpulication des données. Ce script contient aussi les tests unitaires des 
 fonctions définies. 
 * data_viz.ipynb : Un notebook pour la visualisation des données propres. 
+
 Le dossier de travail contient aussi un ensemble de données
 dans le dossier Data:  
 * data.db : la base de données brutes (dans laquelle on a rajouté un table appelée 
@@ -89,9 +90,9 @@ clean_data correspondant aux données nettoyées).
 * au_postcode.csv : une table faisant le lien entre les postcode 
 et l'état (servant pour la complétion des données). 
 * state_info.csv : une table contenant des informations sur la population de 
-chaque états australien. 
+chaque état australien. 
 * dup_candidates.pkl : un fichier pickle contenant un dataframe avec les 
-informations sur les duplicats dans les données brutes. 
+informations sur les duplicats des données brutes. 
 * state_shapefiles : un ensemble de fichiers géographiques servant à afficher
 les données sur une carte par état. 
 * postcode_shapefiles : un ensemble de fichiers géographiques servant à afficher
