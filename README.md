@@ -99,18 +99,18 @@ les données sur une carte par état.
 les données sur une carte par postcode.
 
 ### Dépendances
-python 3.8.3
-fuzzywuzzy 0.18.0
-pandas 1.0.5
-numpy 1.18.5
-geopandas 0.6.1
-sqlalchemy 1.3.18
-statsmodels 0.11.1
-seaborn 0.10.1
-matplotlib 3.2.2
-datetime
-multiprocessing
-unittest
-re
-time
+* python 3.8.3
+* fuzzywuzzy 0.18.0
+* pandas 1.0.5
+* numpy 1.18.5
+* geopandas 0.6.1
+* sqlalchemy 1.3.18
+* statsmodels 0.11.1
+* seaborn 0.10.1
+* matplotlib 3.2.2
+* datetime
+* multiprocessing
+* unittest
+* re
+* time
 
