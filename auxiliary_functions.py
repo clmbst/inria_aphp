@@ -254,9 +254,7 @@ class TestDedupeFunctions(unittest.TestCase):
                                         long_col, n_proc=1)
         self.assertListEqual(dedup_df.index.to_list(), [2, 4])
 
-import matplotlib.pyplot as plt
-plt.errorbar
-plt.gca().errobar
+
 if __name__ == '__main__':
     run_test = True
     if run_test:

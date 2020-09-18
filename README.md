@@ -71,3 +71,45 @@ détaille le contenu des différents fichiers et les librairies
 - Il est préférable que le code Python soit écrit en Anglais.
 Les commentaires et l'analyse des résultats dans les notebooks
 devront être en Français.
+
+
+## Travail soumis
+### Dossier de travail
+Le dossier de travail contient les script : 
+* pre_processing.ipynb : Un premier notebook correspondant au nettoyage des 
+données.
+* auxiliary_functions.py : Un ensemble de fonctions auxiliaires pour la
+de-dpulication des données. Ce script contient aussi les tests unitaires des 
+fonctions définies. 
+* data_viz.ipynb : Un notebook pour la visualisation des données propres. 
+Le dossier de travail contient aussi un ensemble de données
+dans le dossier Data:  
+* data.db : la base de données brutes (dans laquelle on a rajouté un table appelée 
+clean_data correspondant aux données nettoyées).
+* au_postcode.csv : une table faisant le lien entre les postcode 
+et l'état (servant pour la complétion des données). 
+* state_info.csv : une table contenant des informations sur la population de 
+chaque états australien. 
+* dup_candidates.pkl : un fichier pickle contenant un dataframe avec les 
+informations sur les duplicats dans les données brutes. 
+* state_shapefiles : un ensemble de fichiers géographiques servant à afficher
+les données sur une carte par état. 
+* postcode_shapefiles : un ensemble de fichiers géographiques servant à afficher
+les données sur une carte par postcode.
+
+### Dépendances
+python 3.8.3
+fuzzywuzzy 0.18.0
+pandas 1.0.5
+numpy 1.18.5
+geopandas 0.6.1
+sqlalchemy 1.3.18
+statsmodels 0.11.1
+seaborn 0.10.1
+matplotlib 3.2.2
+datetime
+multiprocessing
+unittest
+re
+time
+
