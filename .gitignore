@@ -1,3 +1,7 @@
+# Remove 
+Draft/
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# sqlite journal
+.db-journal
